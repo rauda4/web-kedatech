@@ -7,7 +7,7 @@ export default function About() {
       className='container mt-10 px-4 mx-auto justify-between w-screen md:h-screen'
       id='aboutme'>
       <div className='grid xl:grid-cols-2 gap-6 h-full'>
-        <div className='mt-40'>
+        <div className='md:mt-40 mt-20 md:text-left text-center'>
           <p className='font-bold text-3xl'>Tidak ada lagi integrasi rumit.</p>
           <div className='text-lg mt-6'>
             Jika Anda memiliki solusi software yang masing-masing bekerja dengan
@@ -46,7 +46,7 @@ export default function About() {
             sudah teruji.{' '}
           </p>
         </div>
-        <div className='flex justify-end ml-20 hidden'>
+        <div className='flex justify-end ml-20 xl:w-full w-0'>
           <img
             src={imgAboutme}
             alt='aboutImg'

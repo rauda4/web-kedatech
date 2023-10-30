@@ -14,7 +14,7 @@ export default function Home() {
         style={{ backgroundImage: `url(${bgHome})` }}
         className='bg-cover bg-fixed '>
         <section
-          className='container px-4 mx-auto flex flex-wrap items-center justify-between w-screen pt-72 pb-20'
+          className='container px-4 mx-auto flex flex-wrap items-center justify-between w-screen pt-72 '
           id='home'>
           <div className='grid xl:grid-cols-2 w-full'>
             <div className='w-full -mt-16'>
@@ -23,7 +23,7 @@ export default function Home() {
                 alt='logoErp'
               />
             </div>
-            <div className='w-full xl:text-right sm:text-center'>
+            <div className='w-full xl:text-right text-center'>
               <p className='text-xl font-semibold'>
                 Karyawan yang luar biasa layak
               </p>

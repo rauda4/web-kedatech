@@ -4,9 +4,9 @@ export default function Pricing() {
   return (
     <div>
       <section
-        className='container md:mt-60 md:px-4 mx-auto justify-between w-screen'
+        className='container md:mt-60 md:px-4 mx-auto justify-between w-screen px-2'
         id='pricing'>
-        <div className='text-center text-4xl py-20'>
+        <div className='text-center text-4xl py-20 '>
           Ada <b>aplikasi</b> untuk setiap kebutuhan Anda
         </div>
         <div className='grid lg:grid-cols-3 gap-4'>
