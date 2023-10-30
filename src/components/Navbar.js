@@ -12,7 +12,7 @@ export default function Navbar({ tittle, textmain, textauth, colorcollapse }) {
         <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
           <div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
             <a
-              className='text-white text-3xl font-extrabold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase'
+              className='text-white md:text-3xl font-extrabold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase'
               href='/'>
               Home
             </a>
@@ -33,21 +33,21 @@ export default function Navbar({ tittle, textmain, textauth, colorcollapse }) {
             <ul className='flex flex-col lg:flex-row '>
               <li className='flex items-center'>
                 <a
-                  className='lg:text-black lg:hover:text-blue-400 text-gray-800 px-10 py-4 lg:py-2 flex items-center text-2xl uppercase font-extrabold'
+                  className='lg:text-black lg:hover:text-blue-400 text-gray-800 px-10 py-4 lg:py-2 flex items-center md:text-2xl uppercase font-extrabold'
                   href='#aboutme'>
                   About
                 </a>
               </li>
               <li className='flex items-center'>
                 <a
-                  className='lg:text-black lg:hover:text-blue-400 text-gray-800 px-10 py-4 lg:py-2 flex items-center text-2xl uppercase font-extrabold'
+                  className='lg:text-black lg:hover:text-blue-400 text-gray-800 px-10 py-4 lg:py-2 flex items-center md:text-2xl uppercase font-extrabold'
                   href='/#pricing'>
                   Pricing
                 </a>
               </li>
               <li className='flex items-center'>
                 <a
-                  className='lg:text-black lg:hover:text-blue-400 text-gray-800 px-10 py-4 lg:py-2 flex items-center text-2xl uppercase font-extrabold'
+                  className='lg:text-black lg:hover:text-blue-400 text-gray-800 px-10 py-4 lg:py-2 flex items-center md:text-2xl uppercase font-extrabold'
                   href='#contact-us'>
                   contact
                 </a>
@@ -55,7 +55,7 @@ export default function Navbar({ tittle, textmain, textauth, colorcollapse }) {
               <li>
                 <a
                   href='/login'
-                  className='lg:text-blue-400 lg:hover:text-blue-700 text-gray-800 px-10 lg:py-2 py-3 flex cursor-pointer items-center gap-5 text-2xl uppercase font-bold border-4 border-blue-400 rounded-xl px-20'>
+                  className='lg:text-blue-400 lg:hover:text-blue-700 text-gray-800 px-10 lg:py-2 py-3 flex cursor-pointer items-center gap-5 md:text-2xl uppercase font-bold border-4 md:border-blue-400 border-none   pl-10 rounded-xl px-20'>
                   login{' '}
                 </a>
               </li>

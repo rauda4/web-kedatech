@@ -4,9 +4,9 @@ import imgAboutme from '../assets/screens-mockup.png';
 export default function About() {
   return (
     <section
-      className='container mt-10 px-4 mx-auto justify-between w-screen h-screen'
+      className='container mt-10 px-4 mx-auto justify-between w-screen md:h-screen'
       id='aboutme'>
-      <div className='grid grid-cols-2 gap-6 h-full'>
+      <div className='grid xl:grid-cols-2 gap-6 h-full'>
         <div className='mt-40'>
           <p className='font-bold text-3xl'>Tidak ada lagi integrasi rumit.</p>
           <div className='text-lg mt-6'>
@@ -46,7 +46,7 @@ export default function About() {
             sudah teruji.{' '}
           </p>
         </div>
-        <div className='flex justify-end ml-20'>
+        <div className='flex justify-end ml-20 hidden'>
           <img
             src={imgAboutme}
             alt='aboutImg'

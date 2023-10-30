@@ -4,7 +4,7 @@ export default function Pricing() {
   return (
     <div>
       <section
-        className='container mt-60 px-4 mx-auto justify-between w-screen'
+        className='container md:mt-60 md:px-4 mx-auto justify-between w-screen'
         id='pricing'>
         <div className='text-center text-4xl py-20'>
           Ada <b>aplikasi</b> untuk setiap kebutuhan Anda
